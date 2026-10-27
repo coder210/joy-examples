@@ -1,0 +1,32 @@
+{
+    "Map/SizeTest": {
+        "height": 4300,
+        "width": 2
+    },
+    "activeFile": "level1.tmx",
+    "expandedProjectPaths": [
+    ],
+    "fileStates": {
+        "level1.tmx": {
+            "scale": 0.9351562499999999,
+            "selectedLayer": 1,
+            "viewCenter": {
+                "x": 480.1336675020886,
+                "y": 319.732664995823
+            }
+        },
+        "level1.tmx#Terrain (32x32)": {
+            "scaleInDock": 1
+        }
+    },
+    "last.imagePath": "C:/Users/liwei/Downloads/Kings and Pigs/Sprites/14-TileSets",
+    "map.lastUsedFormat": "tmx",
+    "openFiles": [
+        "level1.tmx"
+    ],
+    "project": "l4d.tiled-project",
+    "recentFiles": [
+        "level1.tmx"
+    ],
+    "tileset.embedInMap": true
+}

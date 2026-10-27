@@ -1,0 +1,8 @@
+{
+  "warrior": {
+    "name": "战士",
+    "sprite_dir": "joy_side_template/sprites/characters/bomb_buy_sheet/",
+    "stats": { "hp": 140, "speed": 2.4 },
+    "anims": { "idle": "idle", "knocked":"hit", "walk": "run", "attack": "", "hit": "hit", "death": "death" }
+  }
+}

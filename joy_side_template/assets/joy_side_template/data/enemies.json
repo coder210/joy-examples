@@ -1,0 +1,113 @@
+{
+    "bald_pirate": {
+        "name": "光头海盗",
+        "sprite_dir": "joy_side_template/sprites/enemies/bald_pirate/",
+        "stats": { "hp": 50, "speed": 3.0, "melee_damage": 20, "render_height": 1.0 },
+        "ai": {
+            "ranged": false,
+            "patrol_radius": 3.0,
+            "detect_radius": 6.0,
+            "attack_radius": 1.5,
+            "bullet_speed": 0.0,
+            "bullet_interval": 0.0,
+            "bullet_damage": 0.0
+        },
+        "anims": {
+            "idle":        { "dir": "1-Idle",           "frames": 34 },
+            "run":         { "dir": "2-Run",            "frames": 14 },
+            "attack":      { "dir": "7-Attack",         "frames": 12 },
+            "hit":         { "dir": "8-Hit",            "frames": 8 },
+            "dead":        { "dir": "9-Dead Hit",       "frames": 6 },
+            "dead_ground": { "dir": "10-Dead Ground",   "frames": 4 }
+        }
+    },
+    "big_guy": {
+        "name": "大个子",
+        "sprite_dir": "joy_side_template/sprites/enemies/big_guy/",
+        "stats": { "hp": 120, "speed": 1.6, "melee_damage": 35, "render_height": 1.35 },
+        "ai": {
+            "ranged": false,
+            "patrol_radius": 2.0,
+            "detect_radius": 5.0,
+            "attack_radius": 1.8,
+            "bullet_speed": 0.0,
+            "bullet_interval": 0.0,
+            "bullet_damage": 0.0
+        },
+        "anims": {
+            "idle":        { "dir": "1-Idle",           "frames": 38 },
+            "run":         { "dir": "2-Run",            "frames": 16 },
+            "attack":      { "dir": "7-Attack",         "frames": 11 },
+            "hit":         { "dir": "12-Hit",           "frames": 8 },
+            "dead":        { "dir": "13-Dead Hit",      "frames": 6 },
+            "dead_ground": { "dir": "14-Dead Ground",   "frames": 4 }
+        }
+    },
+    "captain": {
+        "name": "船长",
+        "sprite_dir": "joy_side_template/sprites/enemies/captain/",
+        "stats": { "hp": 60, "speed": 2.4, "melee_damage": 12, "render_height": 1.1 },
+        "ai": {
+            "ranged": true,
+            "patrol_radius": 2.5,
+            "detect_radius": 10.0,
+            "attack_radius": 6.0,
+            "bullet_speed": 7.0,
+            "bullet_interval": 1.2,
+            "bullet_damage": 12.0
+        },
+        "anims": {
+            "idle":        { "dir": "1-Idle",           "frames": 32 },
+            "run":         { "dir": "2-Run",            "frames": 14 },
+            "attack":      { "dir": "7-Attack",         "frames": 7 },
+            "hit":         { "dir": "9-Hit",            "frames": 8 },
+            "dead":        { "dir": "10-Dead Hit",      "frames": 6 },
+            "dead_ground": { "dir": "11-Dead Ground",   "frames": 4 }
+        }
+    },
+    "cucumber": {
+        "name": "黄瓜",
+        "sprite_dir": "joy_side_template/sprites/enemies/cucumber/",
+        "stats": { "hp": 40, "speed": 2.8, "melee_damage": 8, "render_height": 0.9 },
+        "ai": {
+            "ranged": true,
+            "patrol_radius": 3.0,
+            "detect_radius": 9.0,
+            "attack_radius": 5.5,
+            "bullet_speed": 9.0,
+            "bullet_interval": 0.9,
+            "bullet_damage": 8.0
+        },
+        "anims": {
+            "idle":        { "dir": "1-Idle",           "frames": 36 },
+            "run":         { "dir": "2-Run",            "frames": 12 },
+            "attack":      { "dir": "7-Attack",         "frames": 11 },
+            "hit":         { "dir": "9-Hit",            "frames": 8 },
+            "dead":        { "dir": "10-Dead Hit",      "frames": 6 },
+            "dead_ground": { "dir": "11-Dead Ground",   "frames": 4 }
+        }
+    },
+    "whale": {
+        "name": "鲸鱼",
+        "sprite_dir": "joy_side_template/sprites/enemies/whale/",
+        "faces_left": true,
+        "stats": { "hp": 200, "speed": 1.2, "melee_damage": 45, "render_height": 1.7 },
+        "ai": {
+            "ranged": false,
+            "patrol_radius": 1.5,
+            "detect_radius": 4.5,
+            "attack_radius": 2.0,
+            "bullet_speed": 0.0,
+            "bullet_interval": 0.0,
+            "bullet_damage": 0.0
+        },
+        "anims": {
+            "idle":        { "dir": "1-Idle",           "frames": 44 },
+            "run":         { "dir": "2-Run",            "frames": 14 },
+            "attack":      { "dir": "7-Attack",         "frames": 11 },
+            "hit":         { "dir": "9-Hit",            "frames": 7 },
+            "dead":        { "dir": "10-Dead Hit",      "frames": 6 },
+            "dead_ground": { "dir": "11-Dead Ground",   "frames": 4 }
+        }
+    }
+}
