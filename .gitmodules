@@ -1,0 +1,6 @@
+[submodule "joy_side_template/joy"]
+	path = joy_side_template/joy
+	url = https://github.com/coder210/joy
+[submodule "adventure2d/joy"]
+	path = adventure2d/joy
+	url = https://github.com/coder210/joy
